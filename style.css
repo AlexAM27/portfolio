@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Entities */
+/* Colors: 
+  - brackground: #474656
+  - text: #dee2e6
+  */
+
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+
+html {
+  font-size: 62.5%;
+}
+
+ body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #474656;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 36rem;
+}
+
+/* Header */
+.menu {
+  height: 2.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.6rem 0 1rem;
+}
+
+.header-image{
+  width: 5rem;
+}
+
+.header-menu {
+  display: flex;
+  gap: 1.2rem;
+  list-style: none;
+}
+
+.menu-item {
+  color: #dee2e6;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  color: #c5f6fa;
+}
+
+/* Section About */
+.about {
+  height: 24rem;
+  display: flex;
+  justify-content: center;
+  gap: 6.8rem;
+  align-items: center;
+  color: #dee2e6;
+}
+
+.information h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.social-media {
+  margin-top: 2.4rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.social-media-icon {
+  font-size: 1.8rem;
+  /* color: #dee2e6; */
+}
+
+
+
+.avatar {
+  width: 8.6rem;
+  border-radius: 100rem;
+}
+
+/*.avatar {
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  font-style: italic;
+}
+
+h1 {
+  color: #9775fa;
+}
+
+.social-media {
+  color: #38d9a9;
+}
+
+main {
+  background-color: #ced4da;
+}
+
+.card {
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.hobbies {
+  background-color: #c5f6fa;
+}
+
+.work {
+  background-color: #d8f5a2;
+}
+
+.contact {
+  background-color: #ffd8a8;
+} */
