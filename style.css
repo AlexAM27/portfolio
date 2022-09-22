@@ -27,7 +27,7 @@ html {
 
 .container {
   margin: 0 auto;
-  max-width: 36rem;
+  max-width: 56rem;
 }
 
 /* Header */
@@ -36,7 +36,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.6rem 0 1rem;
+  padding: 0 2.4rem 0 1.6rem;
 }
 
 .header-image{
@@ -63,32 +63,36 @@ html {
   height: 24rem;
   display: flex;
   justify-content: center;
-  gap: 6.8rem;
+  gap: 12rem;
   align-items: center;
   color: #dee2e6;
 }
 
 .information h1 {
-  font-size: 1.8rem;
+  text-align: center;
+  font-size: 2.4rem;
   font-weight: 600;
+}
+
+.information p {
+  font-size: 1.6rem;
 }
 
 .social-media {
   margin-top: 2.4rem;
   display: flex;
   justify-content: center;
-  gap: 1.2rem;
+  gap: 1.6rem;
 }
 
 .social-media-icon {
-  font-size: 1.8rem;
-  /* color: #dee2e6; */
+  font-size: 2.4rem;
 }
 
 
 
 .avatar {
-  width: 8.6rem;
+  width: 12rem;
   border-radius: 100rem;
 }
 
