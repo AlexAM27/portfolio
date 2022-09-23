@@ -81,11 +81,13 @@ section {
 /* Section About */
 .about {
   display: flex;
-  justify-content: center;
-  gap: 12rem;
+  justify-content: space-between;
   align-items: center;
-  /* color: #dee2e6; */
   border-top: 1px solid #dee2e6
+}
+
+.information {
+  margin-left: 2.4rem;
 }
 
 .information h1 {
@@ -118,6 +120,7 @@ section {
 .avatar {
   width: 12rem;
   border-radius: 1rem;
+  margin-right: 2.4rem;
 }
 
 /* Section working expirience */
@@ -174,4 +177,99 @@ h2 {
 
 .btn:hover {
   cursor: pointer;
+}
+
+@media(max-width: 895px) {
+  .information h1 {
+    font-size: 2rem;
+  }
+
+  .information p {
+    font-size: 1.2rem;
+  }
+
+  .social-media-icon {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.6rem ;
+  }
+  
+  .expirience-table {
+    font-size: 1.2rem;
+  }
+    
+  .contact {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+  
+}
+
+@media(max-width: 790px) {
+  .information h1 {
+    font-size: 1.6rem;
+  }
+
+  .information p {
+    font-size: 1rem;
+  }
+
+  .social-media-icon {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1rem ;
+  }
+  
+  .expirience-table {
+    font-size: 1rem;
+  }
+    
+  .contact {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  @media(max-width: 560px) {
+    .about {
+      display: grid;
+      justify-content: center;
+      /* text-align: center; */
+      align-items: center;
+      height: min-content;
+      padding: 1.2rem 0;
+    }
+
+    .information {
+      margin-bottom: 1.2rem;
+    }
+
+
+    /* h2 {
+      font-size: 1rem ;
+    }
+    
+    .expirience-table {
+      font-size: 1rem;
+    }
+      
+    .contact {
+      font-size: 1rem;
+    }
+
+    .btn {
+      font-size: 1rem;
+    } */
+    
+  }
+
 }
