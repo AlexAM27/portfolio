@@ -62,6 +62,10 @@ body {
   list-style: none;
 }
 
+.menu-icon {
+  display: none;
+}
+
 .menu-item {
   color: #dee2e6;
   text-decoration: none;
@@ -73,9 +77,13 @@ body {
 
 /* Generel Section */
 section {
-  height: 20rem;
+  /* height: 20rem; */
   border-bottom: 1px solid #dee2e6;
   color: #dee2e6;
+}
+
+section:last-child {
+  border: none;
 }
 
 /* Section About */
@@ -83,7 +91,9 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #dee2e6
+  border-top: 1px solid #dee2e6;
+  padding: 1.2rem 0;
+  
 }
 
 .information {
@@ -125,8 +135,12 @@ section {
 
 /* Section working expirience */
 
+.working-expirience {
+  padding: 1.2rem 0;
+}
+
 h2 {
-  margin: 2.4rem 0 2.4rem 2.4rem;
+  margin: 0 0 2.4rem 2.4rem;
   font-size: 2rem ;
 }
 
@@ -136,6 +150,9 @@ h2 {
 }
 
 /* Section contact */
+.contact-section {
+  padding-top: 1.2rem;
+}
 
 .contact {
   margin: 0 2.4rem;
@@ -240,6 +257,16 @@ h2 {
   }
 
   @media(max-width: 560px) {
+    .header-menu {
+      display: none;
+    }
+
+    .menu-icon {
+      display: block;
+      font-size: 1.8rem;
+      color: #dee2e6;
+      cursor: pointer;
+    }
     .about {
       display: grid;
       justify-content: center;
@@ -250,25 +277,50 @@ h2 {
     }
 
     .information {
+      margin-left: 0;
       margin-bottom: 1.2rem;
     }
 
-
-    /* h2 {
-      font-size: 1rem ;
+    .avatar {
+      margin: 0;
+      justify-self: center;
     }
+
+
+    h2 {
+      text-align: center;
+      margin-left: 0;
+    } 
     
     .expirience-table {
-      font-size: 1rem;
-    }
-      
-    .contact {
-      font-size: 1rem;
+      grid-template-columns: 1fr !important;
     }
 
+    .company {
+      max-width: 100%;
+      margin: 0 auto;
+      border-top: 1px solid #dee2e6;
+      padding: 5px;
+    }
+
+    .company:first-child {
+      border: none;
+    }
+
+    .data-input {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .input {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-bottom: 1rem;
+    }
+      
     .btn {
-      font-size: 1rem;
-    } */
+      margin-bottom: 1.2rem;
+    } 
     
   }
 
