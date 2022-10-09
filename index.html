@@ -7,80 +7,158 @@
       <meta name="description" content="Alex Narkin - Frontend developer">
       <meta name="keywords" content="Alex Narkin Frontend">
       <link rel="stylesheet" href="style.css">
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       <title>Alex Markin - Frontend developer</title>
     </head>
     <body>
+      <div class="container">
+        <header class="header">
+          <span class="name">Alexander Markin</span>
+          <nav class="menu">
+            <ul class="menu-list">
+              <li>
+                <a class="menu-item" href="#">About</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Goals</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Time to learn</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">My courses</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
 
-      <header>
-        <div class="container">
-          <div class="menu">
-
-            <img class="header-image" src="img/html-css-2.jpg" alt="html and css image">
+          <nav class="menu-icon">
+            <ion-icon name="menu-outline"></ion-icon>
+          </nav>
           
-            <nav>
-              <ul class="header-menu">
-                <li>
-                  <a class="menu-item" href="#">About me</a>
-                </li>
-                <li>
-                  <a class="menu-item" href="#">Working expirience</a>
-                </li>
-                <li>
-                  <a class="menu-item" href="#">Say hello</a>
-                </li>
-              </ul>
-            </nav>
-
-            <nav class="menu-icon">
-              <ion-icon name="menu-outline"></ion-icon>
-            </nav>
-
-          </div>
-        </div>
-      </header>
-
-      <main>
-        <div class="container">
+        </header>
+        <main>
           <section class="about">
-            <div class="information">
-              <h1>Hello! I'm Alex Markin</h1>
-              <p>I learn HTML and CSS by Result School</p>
-              <div class="social-media">
-                <a href="https://facebook.com" target="_blank">
-                  <ion-icon class="social-media-icon" name="logo-facebook"></ion-icon>
-                </a>
-                <a href="https://github.com/" target="_blank">
-                  <ion-icon class="social-media-icon" name="logo-github"></ion-icon>
-                </a>
-                <a href="https://vk.ru" target="_blank">
-                  <ion-icon class="social-media-icon" name="logo-vk"></ion-icon>
-                </a>
-                <a href="https://youtube.com" target="_blank">
-                  <ion-icon class="social-media-icon" name="logo-youtube"></ion-icon>
-                </a>
+            <div class="hero">
+              <img class="hero-image" src="img/image_1.jpg" alt="picture">
+            </div>
+            <div class="info">
+              <div class="name">
+                <h2>Name</h2>
+                <span>Alexander Markin</span>
+              </div>
+              <div class="age">
+                <h2>Age</h2>
+                <span>35</span>
+              </div>
+              <div class="expirience">
+                <h2>Programming expirience</h2>
+                <span>none</span>
+              </div>
+              <div class="about-me">
+                <h2>About me</h2>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil et architecto ab explicabo. Doloremque ab, est incidunt rerum asperiores autem recusandae impedit nostrum facilis explicabo laborum accusantium nesciunt laboriosam eos.</span>
               </div>
             </div>
-            <img class="avatar" src="img/avatar.jpg" alt="Alex photo">
           </section>
-          <section class="working-expirience">
-            <h2>My working expirience</h2>
-            <div class="expirience-table grid grid-3-col">
-              <div class="company">LMU</div>
-              <div class="title">Working Student - Support</div>
-              <div class="date">07/2014 - 03/2016</div>
-              <div class="company">Payback GmbH</div>
-              <div class="title">Working Student - QA</div>
-              <div class="date">04/2016 - 03/2018</div>
-              <div class="company">CreamTean GmbH</div>
-              <div class="title">Working Student - QA</div>
-              <div class="date">04/2018 - 10/2018</div>
-              <div class="company">Payback GmbH</div>
-              <div class="title">QA Engineer</div>
-              <div class="date">11/2018 - now</div>
+
+          <section class="goals">
+            <h2>My learning goals</h2>
+            <div class="skills">
+              <div class="hard-skills">
+                <h3>Hard skills</h3>
+                <ul class="hard-skills-list">
+                  <li class="hard-skills-item">HTML/CSS</li>
+                  <li class="hard-skills-item">JavaScript</li>
+                  <li class="hard-skills-item">React</li>
+                  <li class="hard-skills-item">Responsive Design</li>
+                  <li class="hard-skills-item">Version Control/Git</li>
+                  <li class="hard-skills-item">Testing/Debugging</li>
+                  <li class="hard-skills-item">Browser Developer Tools</li>
+                  <li class="hard-skills-item">Web Performance</li>
+                </ul>
+              </div>
+              <div class="soft-skills">
+                <h3>Soft skills</h3>
+                <ul class="soft-skills-list">
+                  <li class="soft-skills-item">Problem-solving skills and critical thinking</li>
+                  <li class="soft-skills-item">Communication skills</li>
+                  <li class="soft-skills-item">People and interpersonal skills</li>
+                  <li class="soft-skills-item">Self-awareness</li>
+                  <li class="soft-skills-item">Self-learning</li>
+                  <li class="soft-skills-item">Accountability</li>
+                  <li class="soft-skills-item">Time management</li>
+                  <li class="soft-skills-item">Emotional intelligence</li>
+                </ul>
+              </div>
             </div>
           </section>
+          <section>
+            <h2>Time to learn</h2>
+            <div class="learning-time">
+              <div class="time-list">
+                <div class="hard-skills">
+                  <ul class="hard-skills-list">
+                    <li class="hard-skills-item">Mondays</li>
+                    <li class="hard-skills-item">Tuesdays</li>
+                    <li class="hard-skills-item">Wednesdays</li>
+                    <li class="hard-skills-item">Thursdays</li>
+                    <li class="hard-skills-item">Fridays</li>
+                    <li class="hard-skills-item">Saturdays</li>
+                    <li class="hard-skills-item">Sundays</li>
+                  </ul>
+                </div>
+                <div class="soft-skills">
+                  <ul class="soft-skills-list">
+                    <li class="soft-skills-item">2-3 hours</li>
+                    <li class="soft-skills-item">2-3 hours</li>
+                    <li class="soft-skills-item">2-3 hours</li>
+                    <li class="soft-skills-item">2-3 hours</li>
+                    <li class="soft-skills-item">2-3 hours</li>
+                    <li class="soft-skills-item">4-5 hours</li>
+                    <li class="soft-skills-item">4-5 hours</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="learning">
+                <img class="learning-image" src="img/learning.jpg" alt="learning">
+              </div>
+            </div>
+          </section>
+          <section class="my-courses">
+            <h2>My courses</h2>
+            <table class="courses-table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Autor</th>
+                  <th>Rating</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>HTML</td>
+                  <td>Vladilen Minin</td>
+                  <td>10/10</td>
+                </tr>
+                <tr>
+                  <td>CSS</td>
+                  <td>Vladilen Minin</td>
+                  <td>10/10</td>
+                </tr>
+                <tr>
+                  <td>Frontend Developer</td>
+                  <td>Vladilen Minin</td>
+                  <td>in progress</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
           <section class="contact-section">
-            <h2>Say Hello</h2>
+            <h2>Contact</h2>
             <form action="#">
               <div class="contact">
                 <div class="data-input">
@@ -100,11 +178,22 @@
                 <button class="btn">Send</button>
               </div>
             </form>
+            <div class="social-media">
+              <a href="https://facebook.com" target="_blank">
+                <ion-icon class="social-media-icon" name="logo-facebook"></ion-icon>
+              </a>
+              <a href="https://github.com/" target="_blank">
+                <ion-icon class="social-media-icon" name="logo-github"></ion-icon>
+              </a>
+              <a href="https://vk.ru" target="_blank">
+                <ion-icon class="social-media-icon" name="logo-vk"></ion-icon>
+              </a>
+              <a href="https://youtube.com" target="_blank">
+                <ion-icon class="social-media-icon" name="logo-youtube"></ion-icon>
+              </a>
+            </div>
           </section>
-        </div>
-      </main>
-
-      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        </main>
+      </div>
     </body>
   </html>
